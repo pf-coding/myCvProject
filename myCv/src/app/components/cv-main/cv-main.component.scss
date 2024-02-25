@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+.kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+}
+
+.typewriter {
+  font-size: 200%;
+}
+.typewriter:after {
+  content: "";
+  font-family: Inter, sans-serif;
+  color: darkslategrey;
+  animation: write 10s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes write {
+  1% {
+    content: "d";
+  }
+  2% {
+    content: "de";
+  }
+  3% {
+    content: "des";
+  }
+  4% {
+    content: "desi";
+  }
+  5% {
+    content: "desig";
+  }
+  6% {
+    content: "design";
+  }
+  7% {
+    content: "designe";
+  }
+  8% {
+    content: "designer";
+  }
+
+  14% {
+    content: "designer";
+  }
+  14.5% {
+    content: "designe";
+  }
+  15% {
+    content: "design";
+  }
+  15.5% {
+    content: "desig";
+  }
+  16% {
+    content: "desi";
+  }
+  16.5% {
+    content: "des";
+  }
+  17% {
+    content: "de";
+  }
+  17.5% {
+    content: "d";
+  }
+  18% {
+    content: "";
+  }
+
+  20% {
+    content: "d";
+  }
+  21% {
+    content: "de";
+  }
+  22% {
+    content: "dev";
+  }
+  23% {
+    content: "deve";
+  }
+  24% {
+    content: "devel";
+  }
+  25% {
+    content: "develo";
+  }
+  26% {
+    content: "develop";
+  }
+  27% {
+    content: "develope";
+  }
+  28% {
+    content: "developer";
+  }
+
+  34% {
+    content: "developer";
+  }
+  35.5% {
+    content: "develope";
+  }
+  36% {
+    content: "develop";
+  }
+  36.5% {
+    content: "develo";
+  }
+  37% {
+    content: "devel";
+  }
+  37.5% {
+    content: "deve";
+  }
+  38% {
+    content: "dev";
+  }
+  38.5% {
+    content: "de";
+  }
+  39% {
+    content: "d";
+  }
+  39.5% {
+    content: "";
+  }
+
+  42% {
+    content: "c";
+  }
+  43% {
+    content: "cr";
+  }
+  44% {
+    content: "cre";
+  }
+  45% {
+    content: "crea";
+  }
+  46% {
+    content: "creat";
+  }
+  47% {
+    content: "creato";
+  }
+
+  48% {
+    content: "creator";
+    color: darkslategrey;
+  }
+  99% {
+    content: "creator";
+    color: darkslategrey;
+  }
+  100% {
+    color: darkslategrey;
+    content: "creator.";
+  }
+}
+
+// -----------------
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
+}
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
