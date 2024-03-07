@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Kaushan+Script&family=Lobster&family=Major+Mono+Display&family=Ranchers&display=swap");
 
 .kode-mono {
   font-family: "Kode Mono", monospace;
@@ -6,17 +7,18 @@
   font-style: normal;
 }
 
-h1 {
-  font-family: Inter, sans-serif;
+.container {
+  margin-top: 10rem;
 }
 
+// TYPEWRITER DESIGN
 .typewriter {
   font-size: 200%;
 }
 .typewriter:after {
   content: "";
-  font-family: Inter, sans-serif;
-  color: darkslategrey;
+  font-family: "Kode Mono", monospace;
+  color: #264653;
   animation: write 10s linear;
   animation-fill-mode: forwards;
 }
@@ -155,14 +157,14 @@ h1 {
 
   48% {
     content: "creator";
-    color: darkslategrey;
+    color: #264653;
   }
   99% {
     content: "creator";
-    color: darkslategrey;
+    color: #264653;
   }
   100% {
-    color: darkslategrey;
+    color: #264653;
     content: "creator.";
   }
 }
@@ -176,17 +178,17 @@ li {
   float: left;
 }
 
-/* CSS */
+// BUTTON DESIGN
 .button-56 {
   align-items: center;
-  background-color: lightgoldenrodyellow;
-  border: 2px solid #111;
+  background-color: #2a9d8f;
+  border: 2px solid #264653;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #fdf0d5;
   cursor: pointer;
   display: flex;
-  font-family: Inter, sans-serif;
+  font-family: "Kode Mono", monospace;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -202,7 +204,7 @@ li {
 }
 
 .button-56:after {
-  background-color: #111;
+  background-color: #264653;
   border-radius: 8px;
   content: "";
   display: block;
@@ -221,12 +223,20 @@ li {
 }
 
 .button-56:active {
-  background-color: #ffdeda;
+  background-color: #2a9d8f;
   outline: 0;
 }
 
 .button-56:hover {
   outline: 0;
+}
+
+main {
+  background-image: url("/assets/profile.png");
+  background-position: 100% 50%;
+  height: 62rem;
+  background-color: #ff5e00;
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 @media (min-width: 768px) {
